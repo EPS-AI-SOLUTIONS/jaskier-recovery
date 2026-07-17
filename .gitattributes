@@ -1,0 +1,17 @@
+# Wymuszenie LF dla plików tekstowych (koniec warningów LF->CRLF na Windows)
+* text=auto eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+
+# Binaria — nigdy nie dotykaj
+*.age binary
+*.db binary
+*.enc binary
+*.gz binary
+*.zip binary
+*.png binary
+*.jpg binary
